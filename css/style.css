@@ -1,0 +1,162 @@
+
+body{
+    background-color: lightskyblue;
+}
+
+h1{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+}
+
+h2{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+img{
+    border: 5px black;
+    border-color: black;
+    width: 200px;
+
+}
+
+
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+.skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+  }
+
+nav{
+    text-align: center;
+}
+
+li{
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: lightpink;
+  }
+  
+  li a {
+    display: block;
+    color:black;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: black;
+    color: whitesmoke;
+  }
+
+div{
+    text-align: center;
+}
+
+h3{
+    color: blue;
+}
+
+@media screen and (min-width: 300px) {
+   
+
+
+    body{
+        background-color: cornsilk;
+    }
+
+    .grid{
+        display: grid;
+        grid-row-gap: 5px;
+        grid-column-gap: 5px;
+        grid-template-columns: 500px;
+    
+        /* Play with: */
+         justify-content:center; 
+        /* justify-items:;  */
+        /* align-items:; */
+        /* align-content:; */
+     }
+  } 
+   /* for mobile */
+
+   .grid {
+     padding: 10px;
+     width:90%;
+     height: 80vh;
+     text-align: center;
+     font-size: 20px;
+     border-radius: 25px;
+     margin: 0 auto;
+}
+
+
+@media screen and (max-width: 700px) {
+   
+
+
+  body{
+      background-color: lightgray;
+  }
+
+  .grid{
+      display: grid;
+      grid-row-gap: 5px;
+      grid-column-gap: 5px;
+      grid-template-columns: 500px;
+  
+      /* Play with: */
+       justify-content:center; 
+      /* justify-items:;  */
+      /* align-items:; */
+      /* align-content:; */
+   }
+} 
+ /* for mobile */
+
+ .grid {
+   padding: 10px;
+   width:90%;
+   height: 80vh;
+   text-align: center;
+   font-size: 20px;
+   border-radius: 25px;
+   margin: 0 auto;
+}
+
+
+.grid > div {
+     background-color: rgba(255, 255, 255, 0.8);
+     text-align: center;
+     padding: 5px;
+   border: 2px solid black;
+     font-size: 30px;
+}
+
+h1, h2{
+   text-align: center;
+   margin: 10px;
+   font-size: 200%;
+}
+
+
+
+
+
